@@ -47,7 +47,7 @@ app.post("/razorpay", async (req, res) => {
 })
 
 app.post("/successful", (req, res) => {
-    res.redirect(301, "http://localhost:5173/success")
+    res.redirect(301, "https://myntracl0ne.netlify.app//success")
 })
 
 app.listen(PORT, () => {
